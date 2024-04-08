@@ -1,15 +1,14 @@
 public class Main {
 
     public static int i;
-public static void main(String []args){
 
-    System.out.println("Hello and welcome!");
-    for (i=1; i<16; i++){
-        System.out.println("i="+i );
+    public static void main(String []args){
+        System.out.println("Hello World"+ " +");
+        String[] imiona = {"Piotr", "Anna", "Jan", "Leszek"};
+        for (i=0; i < imiona.length; i++){
+            System.out.println( i+1 + ". " + imiona[i]);
+        }
     }
-
 }
-}
-
 
 
